@@ -196,9 +196,6 @@ This server consists of these channels.
       * **can** Mute Members
       * **can** Deafen Members
       * **can** Move Members
-    * `Staff`
-      * **can** Send Messages
-      * **can** Speak
   * `#trainingfield-request`
     * `@everybody`
       * **cannot** Send Messages
@@ -208,7 +205,14 @@ This server consists of these channels.
       * **can** Send Messages
     * `Instructor`
       * **can** Send Messages
-    * `Staff`
+  * `#gca-request`
+    * `@everybody`
+      * **cannot** Send Messages
+    * `BOT`
+      * **cannot** Read Messages
+    * `Verified Member`
+      * **can** Send Messages
+    * `Instructor`
       * **can** Send Messages
   * `#instructor-chat`
     * `@everybody`
@@ -217,9 +221,6 @@ This server consists of these channels.
     * `BOT`
       * **cannot** Read Messages
     * `Instructor`
-      * **can** Read Messages
-      * **can** Send Messages
-    * `Staff`
       * **can** Read Messages
       * **can** Send Messages
   * `#pilot1`/`#pilot2`/`#atc1`/`#atc2`
@@ -231,8 +232,6 @@ This server consists of these channels.
       * **can** Send Messages
     * `Instructor`
       * **can** Send Messages
-    * `Staff`
-      * **can** Send Messages
   * `#exam`
     * `@everybody`
       * **cannot** Send Messages
@@ -241,8 +240,6 @@ This server consists of these channels.
     * `Examinee`
       * **can** Send Messages
     * `Instructor`
-      * **can** Send Messages
-    * `Staff`
       * **can** Send Messages
   * `Waiting Room`
     * `@everybody`
@@ -256,8 +253,6 @@ This server consists of these channels.
       * **can** Mute Members
       * **can** Deafen Members
       * **can** Move Members
-    * `Staff`
-      * **can** Speak
   * `Pilot Training 1`/`Pilot Training 2`/`ATC Training 1`/`ATC Training 2`
     * `@everybody`
       * **cannot** Speak
@@ -270,8 +265,6 @@ This server consists of these channels.
       * **can** Mute Members
       * **can** Deafen Members
       * **can** Move Members
-    * `Staff`
-      * **can** Speak
   * `Exam`
     * `@everybody`
       * **cannot** Speak
@@ -284,8 +277,6 @@ This server consists of these channels.
       * **can** Mute Members
       * **can** Deafen Members
       * **can** Move Members
-    * `Staff`
-      * **can** Speak
 * `Operation Centre`
   * Category-specific permissions
     * `BOT`

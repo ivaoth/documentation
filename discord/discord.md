@@ -2,7 +2,7 @@
 
 _Version 1.0.0_
 
-_Effective: TBD_
+_Effective: 23 APR 2018_
 
 ## Introduction
 
